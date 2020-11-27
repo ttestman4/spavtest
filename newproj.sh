@@ -3,7 +3,7 @@ rm -r foo
 rm -r testapp
 mkdir foo
 cd foo
-yarn add @angular/cli@^10.0.0
+yarn add @angular/cli
 yarn ng --version
 cd ..
 foo/node_modules/.bin/ng new testapp --create-application="false" --directory testapp  -p tap --routing --skip-install --strict --style scss -v
